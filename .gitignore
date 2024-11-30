@@ -1,0 +1,41 @@
+# Pythonのキャッシュファイル
+__pycache__/
+*.py[cod]
+
+# 環境設定・IDE固有のファイル
+.vscode/
+.idea/
+
+# 仮想環境
+venv/
+.env/
+
+# OS固有のファイル
+Thumbs.db
+Desktop.ini
+
+# ログファイルとデバッグ用ファイル
+*.log
+*.bak
+*.swp
+
+# Pythonツールが生成するファイル
+.mypy_cache/
+.pytest_cache/
+.coverage
+*.cover
+*.pyc
+
+# Jupyter Notebookのチェックポイント
+.ipynb_checkpoints/
+
+# ビルド関連ファイル
+build/
+dist/
+*.egg-info/
+
+# 一時ファイル
+*.tmp
+*.temp
+*.~*
+.DS_Store
